@@ -1,59 +1,113 @@
 {
-    "users": [
-        {
-            "id": "admin",
-            "login": "admin",
-            "password": "$2y$12$ItMzx8SUYEGfsJ2eHl8B.eHTz36iZ9RZYw5ymgxy8\/i\/hISvoby7u",
-            "name": "Администратор",
-            "role": "admin",
-            "team": "",
-            "goal": "",
-            "chances": 1
-        },
-        {
-            "id": "demo",
-            "login": "demo",
-            "password": "$2y$12$w1jOCwlLzpZe3EWg8J6fBeNhyctiRTZmgLwMklGVlMegpsVcPciRm",
-            "name": "Екатерина Иванова",
-            "role": "member",
-            "team": "Команда №1",
-            "goal": "Пить 8 стаканов воды",
-            "chances": 3
-        }
-    ],
-    "teams": [
-        "Команда №1"
-    ],
-    "checks": [],
-    "metrics": [],
-    "experts": [
-        {
-            "name": "Ольга Смирнова",
-            "category": "Питание",
-            "help": "планированием рациона и пищевыми привычками",
-            "contact": "expert@example.com"
-        },
-        {
-            "name": "Алексей Кузнецов",
-            "category": "Движение",
-            "help": "выбором нагрузки и упражнениями",
-            "contact": "expert@example.com"
-        },
-        {
-            "name": "Мария Волкова",
-            "category": "Восстановление",
-            "help": "сном и режимом отдыха",
-            "contact": "expert@example.com"
-        }
-    ],
-    "notices": [
-        {
-            "text": "Добро пожаловать в Будь в форме!",
-            "date": "28.10.2026"
-        }
-    ],
-    "season": "Питание",
-    "draw": {
-        "finalized": false
+  "users": [
+    {
+      "id": "admin",
+      "login": "admin",
+      "password": "$2y$12$ItMzx8SUYEGfsJ2eHl8B.eHTz36iZ9RZYw5ymgxy8/i/hISvoby7u",
+      "name": "Администратор",
+      "role": "admin",
+      "team": "",
+      "goal": "",
+      "chances": 1
+    },
+    {
+      "id": "demo",
+      "login": "demo",
+      "password": "$2y$12$w1jOCwlLzpZe3EWg8J6fBeNhyctiRTZmgLwMklGVlMegpsVcPciRm",
+      "name": "Екатерина Иванова",
+      "role": "member",
+      "team": "Команда №1",
+      "goal": "Пить 8 стаканов воды",
+      "chances": 3
     }
+  ],
+  "teams": [
+    "Команда №1"
+  ],
+  "checks": [],
+  "metrics": [],
+  "experts": [
+    {
+      "id": "expert-1",
+      "name": "Ольга Смирнова",
+      "category": "Питание",
+      "help": "вопросами по питанию, составлению рациона и подбору полезных привычек",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-2",
+      "name": "Алексей Кузнецов",
+      "category": "Питание",
+      "help": "вопросами по снижению веса, сбалансированному питанию и формированию здоровых привычек",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-3",
+      "name": "Мария Волкова",
+      "category": "Питание",
+      "help": "вопросами о связи питания с эмоциями, осознанном выборе и формировании устойчивых привычек",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-4",
+      "name": "Дмитрий Лебедев",
+      "category": "Движение",
+      "help": "вопросами по тренировкам, технике упражнений и активному образу жизни",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-5",
+      "name": "Елена Никитина",
+      "category": "Движение",
+      "help": "вопросами по увеличению активности, формированию двигательных привычек и поддержанию энергии",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-6",
+      "name": "Сергей Морозов",
+      "category": "Движение",
+      "help": "вопросами по повседневной активности, растяжке и безопасному старту в тренировках",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-7",
+      "name": "Ирина Соколова",
+      "category": "Восстановление",
+      "help": "вопросами по качеству сна, восстановлению и снижению стресса",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-8",
+      "name": "Павел Андреев",
+      "category": "Восстановление",
+      "help": "вопросами по управлению стрессом, ресурсному состоянию и повышению продуктивности",
+      "contact": "",
+      "about": ""
+    },
+    {
+      "id": "expert-9",
+      "name": "Анна Крылова",
+      "category": "Восстановление",
+      "help": "вопросами по режиму дня, восстановлению энергии и формированию полезных ритуалов",
+      "contact": "",
+      "about": ""
+    }
+  ],
+  "notices": [
+    {
+      "text": "Добро пожаловать в Будь в форме!",
+      "date": "28.10.2026"
+    }
+  ],
+  "season": "Питание",
+  "draw": {
+    "finalized": false
+  }
 }
