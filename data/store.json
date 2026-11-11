@@ -541,5 +541,206 @@
     "questionnaire_config": {
         "closes_at": null,
         "assignment_finalized": false
+    },
+    "distribution": {
+        "distribution_id": 1,
+        "status": "draft",
+        "team_count": 10,
+        "algorithm_version": "1.0",
+        "created_at": "2026-11-11T09:37:07+00:00",
+        "approved_at": null,
+        "source_signature": "bbd093d922a71ef1f1bc2af5f9d26b1ba14ac83550cab5057fa2a8bcbf7ee7a3",
+        "teams": [
+            {
+                "team_id": 1,
+                "member_ids": [
+                    "0c88c65981bb"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "1": 1
+                    },
+                    {
+                        "1": 1
+                    },
+                    {
+                        "1": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 2,
+                "member_ids": [
+                    "1b4007fa38ca"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "2": 1
+                    },
+                    {
+                        "2": 1
+                    },
+                    {
+                        "2": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 3,
+                "member_ids": [
+                    "551f0b8c81ff"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "3": 1
+                    },
+                    {
+                        "1": 1
+                    },
+                    {
+                        "2": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 4,
+                "member_ids": [
+                    "600ff198d39a"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "1": 1
+                    },
+                    {
+                        "1": 1
+                    },
+                    {
+                        "1": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 5,
+                "member_ids": [
+                    "7b0a5778d15e"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "3": 1
+                    },
+                    {
+                        "3": 1
+                    },
+                    {
+                        "3": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 6,
+                "member_ids": [
+                    "7b14b51831e8"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "2": 1
+                    },
+                    {
+                        "2": 1
+                    },
+                    {
+                        "2": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 7,
+                "member_ids": [
+                    "b0b57d50c9e2"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "1": 1
+                    },
+                    {
+                        "2": 1
+                    },
+                    {
+                        "3": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 8,
+                "member_ids": [
+                    "demo"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "1": 1
+                    },
+                    {
+                        "1": 1
+                    },
+                    {
+                        "1": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 9,
+                "member_ids": [
+                    "f4e887c20993"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "2": 1
+                    },
+                    {
+                        "2": 1
+                    },
+                    {
+                        "2": 1
+                    }
+                ],
+                "achievements_count": 1
+            },
+            {
+                "team_id": 10,
+                "member_ids": [
+                    "fb24b1c772d3"
+                ],
+                "average_goal_similarity": 0,
+                "popular_goals": [
+                    {
+                        "1": 1
+                    },
+                    {
+                        "2": 1
+                    },
+                    {
+                        "3": 1
+                    }
+                ],
+                "achievements_count": 1
+            }
+        ]
     }
 }
