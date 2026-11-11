@@ -13,7 +13,32 @@ function seasonChecks(array $d,string $id,?string $season=null):array{$season=$s
 function successfulDays(array $d,string $id):int{$by=[];foreach(seasonChecks($d,$id) as $x)if(!empty($x['done']))$by[$x['date']]=true;return min(21,count($by));}
 function progress(array $d,string $id):int{$h=habits($d,$id);$count=count($h);if(!$count)return 0;$done=count(array_filter(seasonChecks($d,$id),fn($x)=>!empty($x['done'])));return min(100,(int)round($done/(21*$count)*100));}
 function achievements(array $d,string $id):array{$n=successfulDays($d,$id);$out=[];foreach([1=>'🌱',7=>'⚡',10=>'🎯',14=>'📅',21=>'🏆'] as $days=>$emoji)$out[]=['days'=>$days,'emoji'=>$emoji,'unlocked'=>$n>=$days];return $out;}
-function teamProgress(array $d,string $team):int{$members=array_values(array_filter($d['users'],fn($u)=>($u['team']??'')===$team&&$u['role']!=='admin'));if(!$members)return 0;return (int)round(array_sum(array_map(fn($u)=>progress($d,$u['id'])>=50?progress($d,$u['id']):0,$members))/count($members));}
+function elapsedSeasonDays(array $d):int{
+    $start=trim((string)($d['season_start_date']??''));
+    if($start===''){
+        $dates=array_column(array_filter($d['checks']??[],fn($c)=>($c['season']??seasonKey($d))===seasonKey($d)),'date');
+        sort($dates);$start=$dates[0]??'';
+    }
+    if(!$start)return 0;
+    try{$first=new DateTimeImmutable(substr($start,0,10));$today=new DateTimeImmutable('today');}catch(Throwable $e){return 0;}
+    $days=(int)$first->diff($today)->format('%r%a')+1;
+    return max(0,min(21,$days));
+}
+function teamProgress(array $d,string $team):int{
+    $members=array_values(array_filter($d['users'],fn($u)=>($u['team']??'')===$team&&($u['role']??'')!=='admin'));
+    if(!$members)return 0;
+    $elapsed=elapsedSeasonDays($d);
+    if(!$elapsed)return 0;
+    $total=0;
+    foreach($members as $u){
+        $id=(string)$u['id'];$habits=habits($d,$id);$count=count($habits);
+        if(!$count)continue;
+        $done=count(array_filter(seasonChecks($d,$id),fn($x)=>!empty($x['done'])));
+        $available=$elapsed*$count;
+        if($done/$available>=0.5)$total+=min(100,$done/(21*$count)*100);
+    }
+    return (int)round($total/count($members));
+}
 function questionnaireConfig(array $d):array{return array_merge(['closes_at'=>null,'assignment_finalized'=>false],$d['questionnaire_config']??[]);}
 function questionnaireStatus(array $d,array $u):array{$q=$d['questionnaires'][$u['id']]??null;$cfg=questionnaireConfig($d);$now=time();$global=!empty($cfg['closes_at'])&&strtotime($cfg['closes_at'])<=$now;$expired=$q&&$now>=strtotime($q['submitted_at'])+72*3600;return ['completed'=>(bool)$q,'submitted_at'=>$q['submitted_at']??null,'answers'=>$q['answers']??null,'can_edit'=>!$global&&!$expired,'globally_closed'=>$global,'edit_deadline'=>$q?date(DATE_ATOM,strtotime($q['submitted_at'])+72*3600):null];}
 function goalSets(array $d,string $id):array{$a=$d['questionnaires'][$id]['answers']['goals']??[];return array_map(fn($k)=>array_values(array_unique(array_map('strval',$a[$k]??[]))),['nutrition','recovery','movement']);}
