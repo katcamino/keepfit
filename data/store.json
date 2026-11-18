@@ -1,746 +1,706 @@
 {
-  "users": [
-    {
-      "id": "admin",
-      "login": "admin",
-      "password": "$2y$12$ItMzx8SUYEGfsJ2eHl8B.eHTz36iZ9RZYw5ymgxy8/i/hISvoby7u",
-      "name": "Администратор",
-      "role": "admin",
-      "team": "",
-      "goal": "",
-      "chances": 1
-    },
-    {
-      "id": "demo",
-      "login": "demo",
-      "password": "$2y$12$w1jOCwlLzpZe3EWg8J6fBeNhyctiRTZmgLwMklGVlMegpsVcPciRm",
-      "name": "Екатерина Иванова",
-      "role": "member",
-      "team": "Бирюзовая",
-      "goal": "Пить 8 стаканов воды",
-      "chances": 3,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "600ff198d39a",
-      "login": "1111",
-      "password": "$2y$12$j3nam2NMeI1gR60xlTt2auBahfwCW7AZcoTmkh2WV4am1mHma.06O",
-      "name": "Катя",
-      "role": "member",
-      "team": "Бирюзовая",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "7b14b51831e8",
-      "login": "2222",
-      "password": "$2y$12$CyQcWVQtTXX1WYzLHO0n9.MrZD17UTZeliw6sg9md0iVjKsQyiPX.",
-      "name": "Петя",
-      "role": "member",
-      "team": "Синяя",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "f4e887c20993",
-      "login": "3333",
-      "password": "$2y$12$6Jq9Cr9COLYKdneDORRtlO1IYCSZSKBg0BXLDaNGgQyxHuKx3xJu2",
-      "name": "Соня",
-      "role": "member",
-      "team": "Синяя",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "b0b57d50c9e2",
-      "login": "4444",
-      "password": "$2y$12$JZ5OYw2ZT1I19tCdVGQRceeGtjRP0LfLdMrwkbAhJ415qsWaaNv6a",
-      "name": "Женя",
-      "role": "member",
-      "team": "Бирюзовая",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "551f0b8c81ff",
-      "login": "5555",
-      "password": "$2y$12$t03.w0xWJU58EH32BaIQKe/ur/9/cjhajfyzKHWYtyOqJ7XzDHdoC",
-      "name": "Есеша",
-      "role": "member",
-      "team": "Синяя",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "0c88c65981bb",
-      "login": "6666",
-      "password": "$2y$12$ubSLDAaozfm8cQ34pcTg0.iQnh36UJH3saDaFdDRTFav1/bl9Gm7u",
-      "name": "Глеб",
-      "role": "member",
-      "team": "Бирюзовая",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "1b4007fa38ca",
-      "login": "7777",
-      "password": "$2y$12$9.6BWSiFTlGE9aVotKnqZuXM0t3ag1wsUxlJdvo8Sr3Y.UTI82DiO",
-      "name": "Ваня",
-      "role": "member",
-      "team": "Синяя",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "fb24b1c772d3",
-      "login": "8888",
-      "password": "$2y$12$XKlTgOHfxpQsCCtKLEUWS.UxWdn/O09lcdzNG3GHTsVNMCatGEDju",
-      "name": "Вика",
-      "role": "member",
-      "team": "Бирюзовая",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "7b0a5778d15e",
-      "login": "9999",
-      "password": "$2y$12$H1cYct9y37VW3A.Y8R87aer1u1KE63dGSh/dwJlQtHBdkRrUMm7Su",
-      "name": "Маша",
-      "role": "member",
-      "team": "Синяя",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "bc4e317f84c3",
-      "login": "2323",
-      "password": "$2y$12$j3jJTy2yFt3oh80blKmxHOD9MMwLEzv3Xljxp.t093MgbGduGDGoe",
-      "name": "Леша",
-      "role": "member",
-      "team": "Бирюзовая",
-      "goal": "",
-      "chances": 1,
-      "questionnaire_completed": true,
-      "team_assignment_status": "approved"
-    },
-    {
-      "id": "ba97efdde0f1",
-      "login": "2424",
-      "password": "$2y$12$D9acEkVwJEfvXX5KjB3KFenXQQ/YTw8RCyS387DfreETkPGvaXxRC",
-      "name": "Лена",
-      "role": "member",
-      "team": "",
-      "goal": "",
-      "chances": 1
-    }
-  ],
-  "teams": [
-    "Бирюзовая",
-    "Синяя"
-  ],
-  "checks": [
-    {
-      "user": "admin",
-      "date": "2026-10-23",
-      "done": true
-    },
-    {
-      "user": "admin",
-      "date": "2026-10-24",
-      "done": true
-    },
-    {
-      "user": "admin",
-      "date": "2026-10-25",
-      "done": true
-    },
-    {
-      "user": "admin",
-      "date": "2026-10-26",
-      "done": true
-    },
-    {
-      "user": "admin",
-      "date": "2026-10-28",
-      "done": true
-    },
-    {
-      "user": "admin",
-      "date": "2026-10-29",
-      "done": true
-    },
-    {
-      "user": "admin",
-      "date": "2026-10-27",
-      "done": true
-    },
-    {
-      "user": "600ff198d39a",
-      "date": "2026-11-11",
-      "season": "nutrition",
-      "habit": "1",
-      "done": true,
-      "updated_at": "2026-11-11T10:34:33+00:00"
-    },
-    {
-      "user": "0c88c65981bb",
-      "date": "2026-11-11",
-      "season": "nutrition",
-      "habit": "1",
-      "done": true,
-      "updated_at": "2026-11-11T10:35:01+00:00"
-    },
-    {
-      "user": "600ff198d39a",
-      "date": "2026-11-12",
-      "season": "nutrition",
-      "habit": "1",
-      "done": true,
-      "updated_at": "2026-11-12T08:13:14+00:00"
-    },
-    {
-      "user": "bc4e317f84c3",
-      "date": "2026-11-16",
-      "season": "nutrition",
-      "habit": "1",
-      "done": true,
-      "updated_at": "2026-11-16T15:15:54+00:00"
-    }
-  ],
-  "metrics": [
-    {
-      "user": "600ff198d39a",
-      "type": "steps",
-      "value": 10000,
-      "date": "2026-11-12",
-      "at": "2026-11-12T07:30:42+00:00"
-    },
-    {
-      "user": "600ff198d39a",
-      "type": "weight",
-      "value": 59,
-      "date": "2026-11-12",
-      "at": "2026-11-12T07:30:51+00:00"
-    },
-    {
-      "user": "bc4e317f84c3",
-      "type": "steps",
-      "value": 10000,
-      "date": "2026-11-16",
-      "at": "2026-11-16T15:19:02+00:00"
-    },
-    {
-      "user": "bc4e317f84c3",
-      "type": "weight",
-      "value": 59,
-      "date": "2026-11-16",
-      "at": "2026-11-16T15:19:07+00:00"
-    },
-    {
-      "user": "bc4e317f84c3",
-      "type": "steps",
-      "value": 12000,
-      "date": "2026-11-16",
-      "at": "2026-11-16T15:19:35+00:00"
-    },
-    {
-      "user": "bc4e317f84c3",
-      "type": "weight",
-      "value": 60,
-      "date": "2026-11-16",
-      "at": "2026-11-16T15:19:45+00:00"
-    }
-  ],
-  "experts": [
-    {
-      "id": "expert-1",
-      "name": "Ольга Смирнова",
-      "category": "Питание",
-      "help": "вопросами по питанию, составлению рациона и подбору полезных привычек",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-2",
-      "name": "Алексей Кузнецов",
-      "category": "Питание",
-      "help": "вопросами по снижению веса, сбалансированному питанию и формированию здоровых привычек",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-3",
-      "name": "Мария Волкова",
-      "category": "Питание",
-      "help": "вопросами о связи питания с эмоциями, осознанном выборе и формировании устойчивых привычек",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-4",
-      "name": "Дмитрий Лебедев",
-      "category": "Движение",
-      "help": "вопросами по тренировкам, технике упражнений и активному образу жизни",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-5",
-      "name": "Елена Никитина",
-      "category": "Движение",
-      "help": "вопросами по увеличению активности, формированию двигательных привычек и поддержанию энергии",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-6",
-      "name": "Сергей Морозов",
-      "category": "Движение",
-      "help": "вопросами по повседневной активности, растяжке и безопасному старту в тренировках",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-7",
-      "name": "Ирина Соколова",
-      "category": "Восстановление",
-      "help": "вопросами по качеству сна, восстановлению и снижению стресса",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-8",
-      "name": "Павел Андреев",
-      "category": "Восстановление",
-      "help": "вопросами по управлению стрессом, ресурсному состоянию и повышению продуктивности",
-      "contact": "",
-      "about": ""
-    },
-    {
-      "id": "expert-9",
-      "name": "Анна Крылова",
-      "category": "Восстановление",
-      "help": "вопросами по режиму дня, восстановлению энергии и формированию полезных ритуалов",
-      "contact": "",
-      "about": ""
-    }
-  ],
-  "notices": [
-    {
-      "text": "Добро пожаловать в Будь в форме!",
-      "date": "28.10.2026"
-    }
-  ],
-  "season": "Питание",
-  "draw": {
-    "finalized": false
-  },
-  "questionnaires": {
-    "600ff198d39a": {
-      "submitted_at": "2026-11-11T09:24:26+00:00",
-      "updated_at": "2026-11-11T09:24:26+00:00",
-      "answers": {
-        "name": "Катя",
-        "office": "Москва",
-        "goals": {
-          "nutrition": [
-            1
-          ],
-          "recovery": [
-            1
-          ],
-          "movement": [
-            1
-          ]
+    "users": [
+        {
+            "id": "admin",
+            "login": "admin",
+            "password": "$2y$12$ItMzx8SUYEGfsJ2eHl8B.eHTz36iZ9RZYw5ymgxy8\/i\/hISvoby7u",
+            "name": "Администратор",
+            "role": "admin",
+            "team": "",
+            "goal": "",
+            "chances": 1
         },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
+        {
+            "id": "demo",
+            "login": "demo",
+            "password": "$2y$12$w1jOCwlLzpZe3EWg8J6fBeNhyctiRTZmgLwMklGVlMegpsVcPciRm",
+            "name": "Екатерина Иванова",
+            "role": "member",
+            "team": "",
+            "goal": "Пить 8 стаканов воды",
+            "chances": 0,
+            "questionnaire_completed": false
         },
-        "achievement_categories": [
-          "nutrition"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "no"
-      }
-    },
-    "demo": {
-      "submitted_at": "2026-11-11T09:24:50+00:00",
-      "updated_at": "2026-11-11T09:24:50+00:00",
-      "answers": {
-        "name": "Екатерина Иванова",
-        "office": "Санкт-Петербург",
-        "goals": {
-          "nutrition": [
-            1
-          ],
-          "recovery": [
-            1
-          ],
-          "movement": [
-            1
-          ]
+        {
+            "id": "600ff198d39a",
+            "login": "1111",
+            "password": "$2y$12$j3nam2NMeI1gR60xlTt2auBahfwCW7AZcoTmkh2WV4am1mHma.06O",
+            "name": "Катя",
+            "role": "member",
+            "team": "Бирюзовая",
+            "goal": "",
+            "chances": 1,
+            "questionnaire_completed": true,
+            "team_assignment_status": "approved",
+            "distribution_reveal_seen": "46173ab09cedbeb3e854e0eb"
         },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
+        {
+            "id": "7b14b51831e8",
+            "login": "2222",
+            "password": "$2y$12$CyQcWVQtTXX1WYzLHO0n9.MrZD17UTZeliw6sg9md0iVjKsQyiPX.",
+            "name": "Петя",
+            "role": "member",
+            "team": "Синяя",
+            "goal": "",
+            "chances": 1,
+            "questionnaire_completed": true,
+            "team_assignment_status": "approved"
         },
-        "achievement_categories": [
-          "movement"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "yes"
-      }
-    },
-    "7b14b51831e8": {
-      "submitted_at": "2026-11-11T09:25:17+00:00",
-      "updated_at": "2026-11-11T09:25:17+00:00",
-      "answers": {
-        "name": "Петя",
-        "office": "Москва",
-        "goals": {
-          "nutrition": [
-            2
-          ],
-          "recovery": [
-            2
-          ],
-          "movement": [
-            2
-          ]
+        {
+            "id": "f4e887c20993",
+            "login": "3333",
+            "password": "$2y$12$6Jq9Cr9COLYKdneDORRtlO1IYCSZSKBg0BXLDaNGgQyxHuKx3xJu2",
+            "name": "Соня",
+            "role": "member",
+            "team": "Синяя",
+            "goal": "",
+            "chances": 1,
+            "questionnaire_completed": true,
+            "team_assignment_status": "approved"
         },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
+        {
+            "id": "b0b57d50c9e2",
+            "login": "4444",
+            "password": "$2y$12$JZ5OYw2ZT1I19tCdVGQRceeGtjRP0LfLdMrwkbAhJ415qsWaaNv6a",
+            "name": "Женя",
+            "role": "member",
+            "team": "Бирюзовая",
+            "goal": "",
+            "chances": 5,
+            "questionnaire_completed": true,
+            "team_assignment_status": "approved"
         },
-        "achievement_categories": [
-          "recovery"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "depends"
-      }
-    },
-    "f4e887c20993": {
-      "submitted_at": "2026-11-11T09:25:43+00:00",
-      "updated_at": "2026-11-11T09:25:43+00:00",
-      "answers": {
-        "name": "Соня",
-        "office": "Санкт-Петербург",
-        "goals": {
-          "nutrition": [
-            2
-          ],
-          "recovery": [
-            2
-          ],
-          "movement": [
-            2
-          ]
+        {
+            "id": "551f0b8c81ff",
+            "login": "5555",
+            "password": "$2y$12$t03.w0xWJU58EH32BaIQKe\/ur\/9\/cjhajfyzKHWYtyOqJ7XzDHdoC",
+            "name": "Есеша",
+            "role": "member",
+            "team": "Синяя",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": true,
+            "team_assignment_status": "approved"
         },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
+        {
+            "id": "0c88c65981bb",
+            "login": "6666",
+            "password": "$2y$12$ubSLDAaozfm8cQ34pcTg0.iQnh36UJH3saDaFdDRTFav1\/bl9Gm7u",
+            "name": "Глеб",
+            "role": "member",
+            "team": "Бирюзовая",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": true,
+            "team_assignment_status": "approved"
         },
-        "achievement_categories": [
-          "movement"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "yes"
-      }
-    },
-    "b0b57d50c9e2": {
-      "submitted_at": "2026-11-11T09:26:08+00:00",
-      "updated_at": "2026-11-11T09:26:08+00:00",
-      "answers": {
-        "name": "Женя",
-        "office": "Другой офис",
-        "goals": {
-          "nutrition": [
-            1
-          ],
-          "recovery": [
-            2
-          ],
-          "movement": [
-            3
-          ]
+        {
+            "id": "1b4007fa38ca",
+            "login": "7777",
+            "password": "$2y$12$9.6BWSiFTlGE9aVotKnqZuXM0t3ag1wsUxlJdvo8Sr3Y.UTI82DiO",
+            "name": "Ваня",
+            "role": "member",
+            "team": "",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": false
         },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
+        {
+            "id": "fb24b1c772d3",
+            "login": "8888",
+            "password": "$2y$12$XKlTgOHfxpQsCCtKLEUWS.UxWdn\/O09lcdzNG3GHTsVNMCatGEDju",
+            "name": "Вика",
+            "role": "member",
+            "team": "",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": false
         },
-        "achievement_categories": [
-          "recovery"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "yes"
-      }
-    },
-    "551f0b8c81ff": {
-      "submitted_at": "2026-11-11T09:26:42+00:00",
-      "updated_at": "2026-11-11T09:26:42+00:00",
-      "answers": {
-        "name": "Есеша",
-        "office": "Москва",
-        "goals": {
-          "nutrition": [
-            3
-          ],
-          "recovery": [
-            1
-          ],
-          "movement": [
-            2
-          ]
+        {
+            "id": "7b0a5778d15e",
+            "login": "9999",
+            "password": "$2y$12$H1cYct9y37VW3A.Y8R87aer1u1KE63dGSh\/dwJlQtHBdkRrUMm7Su",
+            "name": "Маша",
+            "role": "member",
+            "team": "",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": false
         },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
+        {
+            "id": "bc4e317f84c3",
+            "login": "2323",
+            "password": "$2y$12$j3jJTy2yFt3oh80blKmxHOD9MMwLEzv3Xljxp.t093MgbGduGDGoe",
+            "name": "Леша",
+            "role": "member",
+            "team": "",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": false
         },
-        "achievement_categories": [
-          "movement"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "no"
-      }
-    },
-    "0c88c65981bb": {
-      "submitted_at": "2026-11-11T09:34:29+00:00",
-      "updated_at": "2026-11-11T09:34:29+00:00",
-      "answers": {
-        "name": "Глеб",
-        "office": "Другой офис",
-        "goals": {
-          "nutrition": [
-            1
-          ],
-          "recovery": [
-            1
-          ],
-          "movement": [
-            1
-          ]
-        },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
-        },
-        "achievement_categories": [
-          "movement"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "no"
-      }
-    },
-    "1b4007fa38ca": {
-      "submitted_at": "2026-11-11T09:34:47+00:00",
-      "updated_at": "2026-11-11T09:34:47+00:00",
-      "answers": {
-        "name": "Ваня",
-        "office": "Санкт-Петербург",
-        "goals": {
-          "nutrition": [
-            2
-          ],
-          "recovery": [
-            2
-          ],
-          "movement": [
-            2
-          ]
-        },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
-        },
-        "achievement_categories": [
-          "recovery"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "no"
-      }
-    },
-    "fb24b1c772d3": {
-      "submitted_at": "2026-11-11T09:35:11+00:00",
-      "updated_at": "2026-11-11T09:35:11+00:00",
-      "answers": {
-        "name": "Вика",
-        "office": "Санкт-Петербург",
-        "goals": {
-          "nutrition": [
-            1
-          ],
-          "recovery": [
-            2
-          ],
-          "movement": [
-            3
-          ]
-        },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
-        },
-        "achievement_categories": [
-          "recovery"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "yes"
-      }
-    },
-    "7b0a5778d15e": {
-      "submitted_at": "2026-11-11T09:35:38+00:00",
-      "updated_at": "2026-11-11T09:35:38+00:00",
-      "answers": {
-        "name": "Маша",
-        "office": "Москва",
-        "goals": {
-          "nutrition": [
-            3
-          ],
-          "recovery": [
-            3
-          ],
-          "movement": [
-            3
-          ]
-        },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
-        },
-        "achievement_categories": [
-          "recovery"
-        ],
-        "achievement_description": "",
-        "expert_willingness": "yes"
-      }
-    },
-    "bc4e317f84c3": {
-      "submitted_at": "2026-11-16T14:59:56+00:00",
-      "updated_at": "2026-11-16T14:59:56+00:00",
-      "answers": {
-        "name": "Леша",
-        "office": "Москва",
-        "goals": {
-          "nutrition": [
-            1
-          ],
-          "recovery": [
-            2
-          ],
-          "movement": [
-            1
-          ]
-        },
-        "custom_goals": {
-          "nutrition": "",
-          "recovery": "",
-          "movement": ""
-        },
-        "achievement_categories": [
-          "nutrition"
-        ],
-        "achievement_description": "похудела на 20 кг",
-        "expert_willingness": "yes"
-      }
-    }
-  },
-  "questionnaire_config": {
-    "closes_at": null,
-    "assignment_finalized": true
-  },
-  "distribution": {
-    "distribution_id": 1,
-    "status": "approved",
-    "team_count": 2,
-    "algorithm_version": "1.1",
-    "created_at": "2026-11-16T15:03:10+00:00",
-    "approved_at": "2026-11-16T15:06:52+00:00",
-    "source_signature": "99c765397979a7d19625aa6c2e6882218be802a4c13319bab5715b1c409b5bf7",
+        {
+            "id": "ba97efdde0f1",
+            "login": "2424",
+            "password": "$2y$12$D9acEkVwJEfvXX5KjB3KFenXQQ\/YTw8RCyS387DfreETkPGvaXxRC",
+            "name": "Лена",
+            "role": "member",
+            "team": "",
+            "goal": "",
+            "chances": 0,
+            "questionnaire_completed": false
+        }
+    ],
     "teams": [
-      {
-        "team_id": 1,
-        "member_ids": [
-          "0c88c65981bb",
-          "600ff198d39a",
-          "b0b57d50c9e2",
-          "bc4e317f84c3",
-          "demo",
-          "fb24b1c772d3"
+        "Бирюзовая",
+        "Синяя"
+    ],
+    "checks": [
+        {
+            "user": "admin",
+            "date": "2026-10-23",
+            "done": true
+        },
+        {
+            "user": "admin",
+            "date": "2026-10-24",
+            "done": true
+        },
+        {
+            "user": "admin",
+            "date": "2026-10-25",
+            "done": true
+        },
+        {
+            "user": "admin",
+            "date": "2026-10-26",
+            "done": true
+        },
+        {
+            "user": "admin",
+            "date": "2026-10-28",
+            "done": true
+        },
+        {
+            "user": "admin",
+            "date": "2026-10-29",
+            "done": true
+        },
+        {
+            "user": "admin",
+            "date": "2026-10-27",
+            "done": true
+        },
+        {
+            "user": "600ff198d39a",
+            "date": "2026-11-11",
+            "season": "nutrition",
+            "habit": "1",
+            "done": true,
+            "updated_at": "2026-11-11T10:34:33+00:00"
+        },
+        {
+            "user": "0c88c65981bb",
+            "date": "2026-11-11",
+            "season": "nutrition",
+            "habit": "1",
+            "done": true,
+            "updated_at": "2026-11-11T10:35:01+00:00"
+        },
+        {
+            "user": "600ff198d39a",
+            "date": "2026-11-12",
+            "season": "nutrition",
+            "habit": "1",
+            "done": true,
+            "updated_at": "2026-11-12T08:13:14+00:00"
+        },
+        {
+            "user": "bc4e317f84c3",
+            "date": "2026-11-16",
+            "season": "nutrition",
+            "habit": "1",
+            "done": true,
+            "updated_at": "2026-11-16T15:15:54+00:00"
+        },
+        {
+            "user": "600ff198d39a",
+            "date": "2026-11-17",
+            "season": "nutrition",
+            "habit": "6",
+            "done": true,
+            "updated_at": "2026-11-17T15:51:37+00:00"
+        }
+    ],
+    "metrics": [
+        {
+            "user": "600ff198d39a",
+            "type": "steps",
+            "value": 10000,
+            "date": "2026-11-12",
+            "at": "2026-11-12T07:30:42+00:00"
+        },
+        {
+            "user": "600ff198d39a",
+            "type": "weight",
+            "value": 59,
+            "date": "2026-11-12",
+            "at": "2026-11-12T07:30:51+00:00"
+        },
+        {
+            "user": "bc4e317f84c3",
+            "type": "steps",
+            "value": 10000,
+            "date": "2026-11-16",
+            "at": "2026-11-16T15:19:02+00:00"
+        },
+        {
+            "user": "bc4e317f84c3",
+            "type": "weight",
+            "value": 59,
+            "date": "2026-11-16",
+            "at": "2026-11-16T15:19:07+00:00"
+        },
+        {
+            "user": "bc4e317f84c3",
+            "type": "steps",
+            "value": 12000,
+            "date": "2026-11-16",
+            "at": "2026-11-16T15:19:35+00:00"
+        },
+        {
+            "user": "bc4e317f84c3",
+            "type": "weight",
+            "value": 60,
+            "date": "2026-11-16",
+            "at": "2026-11-16T15:19:45+00:00"
+        }
+    ],
+    "experts": [
+        {
+            "id": "expert-1",
+            "name": "Ольга Смирнова",
+            "category": "Питание",
+            "help": "вопросами по питанию, составлению рациона и подбору полезных привычек",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-2",
+            "name": "Алексей Кузнецов",
+            "category": "Питание",
+            "help": "вопросами по снижению веса, сбалансированному питанию и формированию здоровых привычек",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-3",
+            "name": "Мария Волкова",
+            "category": "Питание",
+            "help": "вопросами о связи питания с эмоциями, осознанном выборе и формировании устойчивых привычек",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-4",
+            "name": "Дмитрий Лебедев",
+            "category": "Движение",
+            "help": "вопросами по тренировкам, технике упражнений и активному образу жизни",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-5",
+            "name": "Елена Никитина",
+            "category": "Движение",
+            "help": "вопросами по увеличению активности, формированию двигательных привычек и поддержанию энергии",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-6",
+            "name": "Сергей Морозов",
+            "category": "Движение",
+            "help": "вопросами по повседневной активности, растяжке и безопасному старту в тренировках",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-7",
+            "name": "Ирина Соколова",
+            "category": "Восстановление",
+            "help": "вопросами по качеству сна, восстановлению и снижению стресса",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-8",
+            "name": "Павел Андреев",
+            "category": "Восстановление",
+            "help": "вопросами по управлению стрессом, ресурсному состоянию и повышению продуктивности",
+            "contact": "",
+            "about": ""
+        },
+        {
+            "id": "expert-9",
+            "name": "Анна Крылова",
+            "category": "Восстановление",
+            "help": "вопросами по режиму дня, восстановлению энергии и формированию полезных ритуалов",
+            "contact": "",
+            "about": ""
+        }
+    ],
+    "notices": [
+        {
+            "text": "Добро пожаловать в Будь в форме!",
+            "date": "28.10.2026"
+        }
+    ],
+    "season": "Питание",
+    "draw": {
+        "finalized": true,
+        "date": "2026-11-17T15:46:41+00:00"
+    },
+    "questionnaires": {
+        "600ff198d39a": {
+            "submitted_at": "2026-11-17T15:30:46+00:00",
+            "updated_at": "2026-11-17T15:30:46+00:00",
+            "answers": {
+                "name": "Катя",
+                "office": "Москва",
+                "goals": {
+                    "nutrition": [
+                        6
+                    ],
+                    "movement": [
+                        5
+                    ],
+                    "recovery": [
+                        5
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        [
+                            "Сладости и продукты с добавленным сахаром"
+                        ],
+                        "Да, знаю",
+                        "Еженедельно"
+                    ],
+                    "movement": [
+                        "Бег или велоспорт",
+                        "Да",
+                        "Редко"
+                    ],
+                    "recovery": [
+                        [
+                            "Практики осознанности"
+                        ],
+                        "Ежедневно",
+                        "10 минут"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Соблюдать выбранное ограничение на сегодня",
+                    "movement": "Выполнять запланированную тренировку или соблюдать день восстановления согласно индивидуальному плану",
+                    "recovery": "Уделять 10 минут одному из выбранных способов расслабления"
+                },
+                "custom_goals": [],
+                "achievement_categories": [
+                    "movement"
+                ],
+                "achievement_description": "50",
+                "expert_willingness": "yes"
+            }
+        },
+        "7b14b51831e8": {
+            "submitted_at": "2026-11-17T15:38:54+00:00",
+            "updated_at": "2026-11-17T15:38:54+00:00",
+            "answers": {
+                "name": "Петя",
+                "office": "Москва",
+                "goals": {
+                    "nutrition": [
+                        1
+                    ],
+                    "movement": [
+                        2
+                    ],
+                    "recovery": [
+                        2
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "Более 10 кг",
+                        ""
+                    ],
+                    "movement": [
+                        "Да",
+                        "Один раз в час или чаще"
+                    ],
+                    "recovery": [
+                        "Ложусь и просыпаюсь примерно в одно время каждый день",
+                        "Да"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Придерживаться индивидуального плана питания с умеренным дефицитом калорий",
+                    "movement": "Делать короткие двигательные перерывы в течение рабочего дня согласно индивидуальной норме",
+                    "recovery": "Придерживаться выбранного времени отхода ко сну и пробуждения"
+                },
+                "custom_goals": [],
+                "achievement_categories": [
+                    "movement"
+                ],
+                "achievement_description": "у4",
+                "expert_willingness": "yes"
+            }
+        },
+        "f4e887c20993": {
+            "submitted_at": "2026-11-17T15:39:18+00:00",
+            "updated_at": "2026-11-17T15:39:18+00:00",
+            "answers": {
+                "name": "Соня",
+                "office": "Санкт-Петербург",
+                "goals": {
+                    "nutrition": [
+                        1
+                    ],
+                    "movement": [
+                        3
+                    ],
+                    "recovery": [
+                        1
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "3–5 кг",
+                        "2"
+                    ],
+                    "movement": [
+                        "Ежедневно"
+                    ],
+                    "recovery": [
+                        "4–5 часов",
+                        "Да, знаю"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Придерживаться индивидуального плана питания с умеренным дефицитом калорий",
+                    "movement": "Выполнять выбранную разминку или танцевальную паузу в течение 5–10 минут",
+                    "recovery": "Выделять достаточно времени на ночной сон с учетом индивидуальной потребности"
+                },
+                "custom_goals": [],
+                "achievement_categories": [],
+                "achievement_description": "",
+                "expert_willingness": "yes"
+            }
+        },
+        "b0b57d50c9e2": {
+            "submitted_at": "2026-11-17T15:39:47+00:00",
+            "updated_at": "2026-11-17T15:39:47+00:00",
+            "answers": {
+                "name": "Женя",
+                "office": "Москва",
+                "goals": {
+                    "nutrition": [
+                        3
+                    ],
+                    "movement": [
+                        1
+                    ],
+                    "recovery": [
+                        2
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "Около 0–3 стаканов"
+                    ],
+                    "movement": [
+                        "Да",
+                        "3 000–7 000"
+                    ],
+                    "recovery": [
+                        "Ложусь и просыпаюсь примерно в одно время каждый день",
+                        "Да"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Поддерживать достаточное потребление жидкости в течение дня с учетом индивидуальных потребностей",
+                    "movement": "Выполнять индивидуальную цель по количеству шагов или выбранной активности",
+                    "recovery": "Придерживаться выбранного времени отхода ко сну и пробуждения"
+                },
+                "custom_goals": [],
+                "achievement_categories": [
+                    "movement"
+                ],
+                "achievement_description": "3",
+                "expert_willingness": "depends"
+            }
+        },
+        "551f0b8c81ff": {
+            "submitted_at": "2026-11-17T15:40:19+00:00",
+            "updated_at": "2026-11-17T15:40:19+00:00",
+            "answers": {
+                "name": "Есеша",
+                "office": "Санкт-Петербург",
+                "goals": {
+                    "nutrition": [
+                        1
+                    ],
+                    "movement": [
+                        2
+                    ],
+                    "recovery": [
+                        3
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "3–5 кг",
+                        ""
+                    ],
+                    "movement": [
+                        "Да",
+                        "Один раз в час или чаще"
+                    ],
+                    "recovery": [
+                        "Да",
+                        "Засыпаю с экраном в руках"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Придерживаться индивидуального плана питания с умеренным дефицитом калорий",
+                    "movement": "Делать короткие двигательные перерывы в течение рабочего дня согласно индивидуальной норме",
+                    "recovery": "Откладывать телефон и другие экраны за выбранное время до сна"
+                },
+                "custom_goals": [],
+                "achievement_categories": [
+                    "nutrition"
+                ],
+                "achievement_description": "у",
+                "expert_willingness": "yes"
+            }
+        },
+        "0c88c65981bb": {
+            "submitted_at": "2026-11-17T15:40:50+00:00",
+            "updated_at": "2026-11-17T15:40:50+00:00",
+            "answers": {
+                "name": "Глеб",
+                "office": "Пермь",
+                "goals": {
+                    "nutrition": [
+                        3
+                    ],
+                    "movement": [
+                        4
+                    ],
+                    "recovery": [
+                        2
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "Около 0–3 стаканов"
+                    ],
+                    "movement": [
+                        "Да, есть, и я регулярно ему следую",
+                        "Два раза в неделю"
+                    ],
+                    "recovery": [
+                        "Когда как",
+                        "Да"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Поддерживать достаточное потребление жидкости в течение дня с учетом индивидуальных потребностей",
+                    "movement": "Выполнять запланированную тренировку или соблюдать день восстановления согласно индивидуальному плану",
+                    "recovery": "Придерживаться выбранного времени отхода ко сну и пробуждения"
+                },
+                "custom_goals": [],
+                "achievement_categories": [],
+                "achievement_description": "",
+                "expert_willingness": "depends"
+            }
+        }
+    },
+    "questionnaire_config": {
+        "closes_at": null,
+        "assignment_finalized": true
+    },
+    "questionnaire_drafts": [],
+    "distribution": {
+        "distribution_id": 1,
+        "status": "approved",
+        "team_count": 2,
+        "algorithm_version": "1.1",
+        "created_at": "2026-11-17T15:43:30+00:00",
+        "approved_at": "2026-11-17T15:45:03+00:00",
+        "source_signature": "9c355310b72fe4ec4dc3392b08190969269d4bf7acbcdc7378e4f5dd5361e207",
+        "teams": [
+            {
+                "team_id": 1,
+                "member_ids": [
+                    "0c88c65981bb",
+                    "600ff198d39a",
+                    "b0b57d50c9e2"
+                ],
+                "average_goal_similarity": 0.2222222222222222,
+                "popular_goals": [
+                    {
+                        "3": 2,
+                        "6": 1
+                    },
+                    {
+                        "2": 2,
+                        "5": 1
+                    },
+                    {
+                        "4": 1,
+                        "5": 1,
+                        "1": 1
+                    }
+                ],
+                "achievements_count": 2
+            },
+            {
+                "team_id": 2,
+                "member_ids": [
+                    "551f0b8c81ff",
+                    "7b14b51831e8",
+                    "f4e887c20993"
+                ],
+                "average_goal_similarity": 0.4444444444444444,
+                "popular_goals": [
+                    {
+                        "1": 3
+                    },
+                    {
+                        "3": 1,
+                        "2": 1,
+                        "1": 1
+                    },
+                    {
+                        "2": 2,
+                        "3": 1
+                    }
+                ],
+                "achievements_count": 2
+            }
         ],
-        "average_goal_similarity": 0.6222222222222222,
-        "popular_goals": [
-          {
-            "1": 6
-          },
-          {
-            "1": 3,
-            "2": 3
-          },
-          {
-            "1": 4,
-            "3": 2
-          }
-        ],
-        "achievements_count": 6
-      },
-      {
-        "team_id": 2,
-        "member_ids": [
-          "1b4007fa38ca",
-          "551f0b8c81ff",
-          "7b0a5778d15e",
-          "7b14b51831e8",
-          "f4e887c20993"
-        ],
-        "average_goal_similarity": 0.4333333333333334,
-        "popular_goals": [
-          {
-            "2": 3,
-            "3": 2
-          },
-          {
-            "2": 3,
-            "1": 1,
-            "3": 1
-          },
-          {
-            "2": 4,
-            "3": 1
-          }
-        ],
-        "achievements_count": 5
-      }
-    ]
-  }
+        "reveal_token": "46173ab09cedbeb3e854e0eb"
+    }
 }
