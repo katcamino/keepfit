@@ -27,12 +27,11 @@
             "password": "$2y$12$j3nam2NMeI1gR60xlTt2auBahfwCW7AZcoTmkh2WV4am1mHma.06O",
             "name": "Катя",
             "role": "member",
-            "team": "Бирюзовая",
+            "team": "",
             "goal": "",
-            "chances": 1,
-            "questionnaire_completed": true,
-            "team_assignment_status": "approved",
-            "distribution_reveal_seen": "46173ab09cedbeb3e854e0eb"
+            "chances": 0,
+            "questionnaire_completed": false,
+            "distribution_reveal_seen": "89b88bffb6ed0312e099c21b"
         },
         {
             "id": "7b14b51831e8",
@@ -40,11 +39,11 @@
             "password": "$2y$12$CyQcWVQtTXX1WYzLHO0n9.MrZD17UTZeliw6sg9md0iVjKsQyiPX.",
             "name": "Петя",
             "role": "member",
-            "team": "Синяя",
+            "team": "",
             "goal": "",
-            "chances": 1,
+            "chances": 0,
             "questionnaire_completed": true,
-            "team_assignment_status": "approved"
+            "distribution_reveal_seen": "eb7abf6435b2d1afe088e9a2"
         },
         {
             "id": "f4e887c20993",
@@ -52,11 +51,10 @@
             "password": "$2y$12$6Jq9Cr9COLYKdneDORRtlO1IYCSZSKBg0BXLDaNGgQyxHuKx3xJu2",
             "name": "Соня",
             "role": "member",
-            "team": "Синяя",
+            "team": "",
             "goal": "",
-            "chances": 1,
-            "questionnaire_completed": true,
-            "team_assignment_status": "approved"
+            "chances": 0,
+            "questionnaire_completed": true
         },
         {
             "id": "b0b57d50c9e2",
@@ -64,11 +62,10 @@
             "password": "$2y$12$JZ5OYw2ZT1I19tCdVGQRceeGtjRP0LfLdMrwkbAhJ415qsWaaNv6a",
             "name": "Женя",
             "role": "member",
-            "team": "Бирюзовая",
+            "team": "",
             "goal": "",
-            "chances": 5,
-            "questionnaire_completed": true,
-            "team_assignment_status": "approved"
+            "chances": 0,
+            "questionnaire_completed": true
         },
         {
             "id": "551f0b8c81ff",
@@ -76,11 +73,10 @@
             "password": "$2y$12$t03.w0xWJU58EH32BaIQKe\/ur\/9\/cjhajfyzKHWYtyOqJ7XzDHdoC",
             "name": "Есеша",
             "role": "member",
-            "team": "Синяя",
+            "team": "",
             "goal": "",
             "chances": 0,
-            "questionnaire_completed": true,
-            "team_assignment_status": "approved"
+            "questionnaire_completed": true
         },
         {
             "id": "0c88c65981bb",
@@ -88,11 +84,10 @@
             "password": "$2y$12$ubSLDAaozfm8cQ34pcTg0.iQnh36UJH3saDaFdDRTFav1\/bl9Gm7u",
             "name": "Глеб",
             "role": "member",
-            "team": "Бирюзовая",
+            "team": "",
             "goal": "",
             "chances": 0,
-            "questionnaire_completed": true,
-            "team_assignment_status": "approved"
+            "questionnaire_completed": true
         },
         {
             "id": "1b4007fa38ca",
@@ -150,10 +145,7 @@
             "questionnaire_completed": false
         }
     ],
-    "teams": [
-        "Бирюзовая",
-        "Синяя"
-    ],
+    "teams": [],
     "checks": [
         {
             "user": "admin",
@@ -229,6 +221,22 @@
             "habit": "6",
             "done": true,
             "updated_at": "2026-11-17T15:51:37+00:00"
+        },
+        {
+            "user": "7b14b51831e8",
+            "date": "2026-11-18",
+            "season": "nutrition",
+            "habit": "2",
+            "done": true,
+            "updated_at": "2026-11-18T10:43:08+00:00"
+        },
+        {
+            "user": "600ff198d39a",
+            "date": "2026-11-18",
+            "season": "nutrition",
+            "habit": "1",
+            "done": true,
+            "updated_at": "2026-11-18T11:55:24+00:00"
         }
     ],
     "metrics": [
@@ -361,140 +369,88 @@
         "date": "2026-11-17T15:46:41+00:00"
     },
     "questionnaires": {
-        "600ff198d39a": {
-            "submitted_at": "2026-11-17T15:30:46+00:00",
-            "updated_at": "2026-11-17T15:30:46+00:00",
-            "answers": {
-                "name": "Катя",
-                "office": "Москва",
-                "goals": {
-                    "nutrition": [
-                        6
-                    ],
-                    "movement": [
-                        5
-                    ],
-                    "recovery": [
-                        5
-                    ]
-                },
-                "starting_levels": [],
-                "details": {
-                    "nutrition": [
-                        [
-                            "Сладости и продукты с добавленным сахаром"
-                        ],
-                        "Да, знаю",
-                        "Еженедельно"
-                    ],
-                    "movement": [
-                        "Бег или велоспорт",
-                        "Да",
-                        "Редко"
-                    ],
-                    "recovery": [
-                        [
-                            "Практики осознанности"
-                        ],
-                        "Ежедневно",
-                        "10 минут"
-                    ]
-                },
-                "daily_actions": {
-                    "nutrition": "Соблюдать выбранное ограничение на сегодня",
-                    "movement": "Выполнять запланированную тренировку или соблюдать день восстановления согласно индивидуальному плану",
-                    "recovery": "Уделять 10 минут одному из выбранных способов расслабления"
-                },
-                "custom_goals": [],
-                "achievement_categories": [
-                    "movement"
-                ],
-                "achievement_description": "50",
-                "expert_willingness": "yes"
-            }
-        },
         "7b14b51831e8": {
-            "submitted_at": "2026-11-17T15:38:54+00:00",
-            "updated_at": "2026-11-17T15:38:54+00:00",
+            "submitted_at": "2026-11-18T12:10:53+00:00",
+            "updated_at": "2026-11-18T12:10:53+00:00",
             "answers": {
                 "name": "Петя",
                 "office": "Москва",
                 "goals": {
                     "nutrition": [
-                        1
+                        2
                     ],
                     "movement": [
-                        2
+                        1
                     ],
                     "recovery": [
-                        2
+                        1
                     ]
                 },
                 "starting_levels": [],
                 "details": {
                     "nutrition": [
                         "Да, знаю",
-                        "Более 10 кг",
-                        ""
+                        "Каждый основной прием пищи"
                     ],
                     "movement": [
                         "Да",
-                        "Один раз в час или чаще"
+                        "Менее 3 000"
                     ],
                     "recovery": [
-                        "Ложусь и просыпаюсь примерно в одно время каждый день",
-                        "Да"
-                    ]
-                },
-                "daily_actions": {
-                    "nutrition": "Придерживаться индивидуального плана питания с умеренным дефицитом калорий",
-                    "movement": "Делать короткие двигательные перерывы в течение рабочего дня согласно индивидуальной норме",
-                    "recovery": "Придерживаться выбранного времени отхода ко сну и пробуждения"
-                },
-                "custom_goals": [],
-                "achievement_categories": [
-                    "movement"
-                ],
-                "achievement_description": "у4",
-                "expert_willingness": "yes"
-            }
-        },
-        "f4e887c20993": {
-            "submitted_at": "2026-11-17T15:39:18+00:00",
-            "updated_at": "2026-11-17T15:39:18+00:00",
-            "answers": {
-                "name": "Соня",
-                "office": "Санкт-Петербург",
-                "goals": {
-                    "nutrition": [
-                        1
-                    ],
-                    "movement": [
-                        3
-                    ],
-                    "recovery": [
-                        1
-                    ]
-                },
-                "starting_levels": [],
-                "details": {
-                    "nutrition": [
-                        "Да, знаю",
-                        "3–5 кг",
-                        "2"
-                    ],
-                    "movement": [
-                        "Ежедневно"
-                    ],
-                    "recovery": [
-                        "4–5 часов",
+                        "Менее 4 часов",
                         "Да, знаю"
                     ]
                 },
                 "daily_actions": {
-                    "nutrition": "Придерживаться индивидуального плана питания с умеренным дефицитом калорий",
-                    "movement": "Выполнять выбранную разминку или танцевальную паузу в течение 5–10 минут",
+                    "nutrition": "Собирать хотя бы один основной прием пищи по принципу сбалансированной тарелки",
+                    "movement": "Выполнять индивидуальную цель по количеству шагов или выбранной активности",
                     "recovery": "Выделять достаточно времени на ночной сон с учетом индивидуальной потребности"
+                },
+                "custom_goals": [],
+                "achievement_categories": [],
+                "achievement_description": "",
+                "expert_willingness": "depends"
+            }
+        },
+        "f4e887c20993": {
+            "submitted_at": "2026-11-18T12:11:33+00:00",
+            "updated_at": "2026-11-18T12:11:33+00:00",
+            "answers": {
+                "name": "Соня",
+                "office": "Москва",
+                "goals": {
+                    "nutrition": [
+                        2
+                    ],
+                    "movement": [
+                        1
+                    ],
+                    "recovery": [
+                        5
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "Хотя бы раз в день"
+                    ],
+                    "movement": [
+                        "Да",
+                        "Менее 3 000"
+                    ],
+                    "recovery": [
+                        [
+                            "Дыхательные упражнения"
+                        ],
+                        "Ежедневно",
+                        "5 минут"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Собирать хотя бы один основной прием пищи по принципу сбалансированной тарелки",
+                    "movement": "Выполнять индивидуальную цель по количеству шагов или выбранной активности",
+                    "recovery": "Уделять 5 минут одному из выбранных способов расслабления"
                 },
                 "custom_goals": [],
                 "achievement_categories": [],
@@ -503,101 +459,53 @@
             }
         },
         "b0b57d50c9e2": {
-            "submitted_at": "2026-11-17T15:39:47+00:00",
-            "updated_at": "2026-11-17T15:39:47+00:00",
+            "submitted_at": "2026-11-18T12:12:32+00:00",
+            "updated_at": "2026-11-18T12:12:32+00:00",
             "answers": {
                 "name": "Женя",
-                "office": "Москва",
+                "office": "Санкт-Петербург",
                 "goals": {
                     "nutrition": [
                         3
                     ],
                     "movement": [
-                        1
+                        4
                     ],
                     "recovery": [
-                        2
+                        1
                     ]
                 },
                 "starting_levels": [],
                 "details": {
                     "nutrition": [
-                        "Да, знаю",
-                        "Около 0–3 стаканов"
+                        "Нет, не знаю",
+                        "Выпиваю норму"
                     ],
                     "movement": [
-                        "Да",
-                        "3 000–7 000"
+                        "Да, есть, и я регулярно ему следую",
+                        "Три и более раз в неделю"
                     ],
                     "recovery": [
-                        "Ложусь и просыпаюсь примерно в одно время каждый день",
-                        "Да"
+                        "Менее 4 часов",
+                        "Да, знаю"
                     ]
                 },
                 "daily_actions": {
                     "nutrition": "Поддерживать достаточное потребление жидкости в течение дня с учетом индивидуальных потребностей",
-                    "movement": "Выполнять индивидуальную цель по количеству шагов или выбранной активности",
-                    "recovery": "Придерживаться выбранного времени отхода ко сну и пробуждения"
+                    "movement": "Выполнять запланированную тренировку или соблюдать день восстановления согласно индивидуальному плану",
+                    "recovery": "Выделять достаточно времени на ночной сон с учетом индивидуальной потребности"
                 },
                 "custom_goals": [],
-                "achievement_categories": [
-                    "movement"
-                ],
-                "achievement_description": "3",
+                "achievement_categories": [],
+                "achievement_description": "",
                 "expert_willingness": "depends"
             }
         },
         "551f0b8c81ff": {
-            "submitted_at": "2026-11-17T15:40:19+00:00",
-            "updated_at": "2026-11-17T15:40:19+00:00",
+            "submitted_at": "2026-11-18T12:13:12+00:00",
+            "updated_at": "2026-11-18T12:13:12+00:00",
             "answers": {
                 "name": "Есеша",
-                "office": "Санкт-Петербург",
-                "goals": {
-                    "nutrition": [
-                        1
-                    ],
-                    "movement": [
-                        2
-                    ],
-                    "recovery": [
-                        3
-                    ]
-                },
-                "starting_levels": [],
-                "details": {
-                    "nutrition": [
-                        "Да, знаю",
-                        "3–5 кг",
-                        ""
-                    ],
-                    "movement": [
-                        "Да",
-                        "Один раз в час или чаще"
-                    ],
-                    "recovery": [
-                        "Да",
-                        "Засыпаю с экраном в руках"
-                    ]
-                },
-                "daily_actions": {
-                    "nutrition": "Придерживаться индивидуального плана питания с умеренным дефицитом калорий",
-                    "movement": "Делать короткие двигательные перерывы в течение рабочего дня согласно индивидуальной норме",
-                    "recovery": "Откладывать телефон и другие экраны за выбранное время до сна"
-                },
-                "custom_goals": [],
-                "achievement_categories": [
-                    "nutrition"
-                ],
-                "achievement_description": "у",
-                "expert_willingness": "yes"
-            }
-        },
-        "0c88c65981bb": {
-            "submitted_at": "2026-11-17T15:40:50+00:00",
-            "updated_at": "2026-11-17T15:40:50+00:00",
-            "answers": {
-                "name": "Глеб",
                 "office": "Пермь",
                 "goals": {
                     "nutrition": [
@@ -607,28 +515,74 @@
                         4
                     ],
                     "recovery": [
-                        2
+                        1
                     ]
                 },
                 "starting_levels": [],
                 "details": {
                     "nutrition": [
                         "Да, знаю",
-                        "Около 0–3 стаканов"
+                        "Более 3 стаканов, но меньше своей индивидуальной нормы"
+                    ],
+                    "movement": [
+                        "Да, есть, и я регулярно ему следую",
+                        "Три и более раз в неделю"
+                    ],
+                    "recovery": [
+                        "8–9 часов",
+                        "Да, знаю"
+                    ]
+                },
+                "daily_actions": {
+                    "nutrition": "Поддерживать достаточное потребление жидкости в течение дня с учетом индивидуальных потребностей",
+                    "movement": "Выполнять запланированную тренировку или соблюдать день восстановления согласно индивидуальному плану",
+                    "recovery": "Выделять достаточно времени на ночной сон с учетом индивидуальной потребности"
+                },
+                "custom_goals": [],
+                "achievement_categories": [],
+                "achievement_description": "",
+                "expert_willingness": "no"
+            }
+        },
+        "0c88c65981bb": {
+            "submitted_at": "2026-11-18T12:13:45+00:00",
+            "updated_at": "2026-11-18T12:13:45+00:00",
+            "answers": {
+                "name": "Глеб",
+                "office": "Москва",
+                "goals": {
+                    "nutrition": [
+                        3
+                    ],
+                    "movement": [
+                        4
+                    ],
+                    "recovery": [
+                        5
+                    ]
+                },
+                "starting_levels": [],
+                "details": {
+                    "nutrition": [
+                        "Да, знаю",
+                        "Более 3 стаканов, но меньше своей индивидуальной нормы"
                     ],
                     "movement": [
                         "Да, есть, и я регулярно ему следую",
                         "Два раза в неделю"
                     ],
                     "recovery": [
-                        "Когда как",
-                        "Да"
+                        [
+                            "Медитация"
+                        ],
+                        "Реже одного раза в неделю",
+                        "10 минут"
                     ]
                 },
                 "daily_actions": {
                     "nutrition": "Поддерживать достаточное потребление жидкости в течение дня с учетом индивидуальных потребностей",
                     "movement": "Выполнять запланированную тренировку или соблюдать день восстановления согласно индивидуальному плану",
-                    "recovery": "Придерживаться выбранного времени отхода ко сну и пробуждения"
+                    "recovery": "Уделять 10 минут одному из выбранных способов расслабления"
                 },
                 "custom_goals": [],
                 "achievement_categories": [],
@@ -639,68 +593,7 @@
     },
     "questionnaire_config": {
         "closes_at": null,
-        "assignment_finalized": true
+        "assignment_finalized": false
     },
-    "questionnaire_drafts": [],
-    "distribution": {
-        "distribution_id": 1,
-        "status": "approved",
-        "team_count": 2,
-        "algorithm_version": "1.1",
-        "created_at": "2026-11-17T15:43:30+00:00",
-        "approved_at": "2026-11-17T15:45:03+00:00",
-        "source_signature": "9c355310b72fe4ec4dc3392b08190969269d4bf7acbcdc7378e4f5dd5361e207",
-        "teams": [
-            {
-                "team_id": 1,
-                "member_ids": [
-                    "0c88c65981bb",
-                    "600ff198d39a",
-                    "b0b57d50c9e2"
-                ],
-                "average_goal_similarity": 0.2222222222222222,
-                "popular_goals": [
-                    {
-                        "3": 2,
-                        "6": 1
-                    },
-                    {
-                        "2": 2,
-                        "5": 1
-                    },
-                    {
-                        "4": 1,
-                        "5": 1,
-                        "1": 1
-                    }
-                ],
-                "achievements_count": 2
-            },
-            {
-                "team_id": 2,
-                "member_ids": [
-                    "551f0b8c81ff",
-                    "7b14b51831e8",
-                    "f4e887c20993"
-                ],
-                "average_goal_similarity": 0.4444444444444444,
-                "popular_goals": [
-                    {
-                        "1": 3
-                    },
-                    {
-                        "3": 1,
-                        "2": 1,
-                        "1": 1
-                    },
-                    {
-                        "2": 2,
-                        "3": 1
-                    }
-                ],
-                "achievements_count": 2
-            }
-        ],
-        "reveal_token": "46173ab09cedbeb3e854e0eb"
-    }
+    "questionnaire_drafts": []
 }
